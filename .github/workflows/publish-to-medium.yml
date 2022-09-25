@@ -12,5 +12,7 @@ jobs:
         with:
           access_token: ${{ secrets.MEDIUM_ACCESS_TOKEN }}
           markdown: ${{ steps.post.outputs.data }}
+          app_id: lynnmaxwell0706
+          app_secret: lynnmaxwell0706
           base_url: https://medium.com/@lynnmaxwell0706
           post_url: https://medium.com/@lynnmaxwell0706/posts
