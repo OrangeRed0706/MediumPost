@@ -6,7 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - id: files
-      uses: jitterbit/get-changed-files@v1
       - id: posts
         name: Detecting posts from the changes
         run: |
